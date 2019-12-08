@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  color: #ffffff;
+  background: linear-gradient(-20deg, #130a1f 20%, #0B0A0D 80%);
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+header#main-header {
+  height: 46px;
+  background: black;
+  box-shadow: 0 1px 1px rgba(104, 90, 90, 0.25);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+header img {
+  height: 80px;
+  width: 130;
+  margin-left: 40px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.container {
+  max-width: 450px;
+  margin: 40px auto;
+  border-top: 5px solid #39D360;
+  background-color: #19181F;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  user-select: none;
+}
+h1 {
+  margin: 0;
+  padding: 20px;
+  background-color: rgba(84, 80, 116, 0.4);
+  font-size: 1.8em;
+  text-align: center;
+}
+
+div .items {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+div li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  position: relative;
+  justify-content: space-between;
+}
+
+div ul li span{
+  font-weight: normal;
+  font-size: 20px;
+  color: #39D360;
+}
+
+div ul li button {
+  height: 30px;
+  margin-top: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #7158C1;
+  border: 1px solid #7158C1;
+  border-radius: 6px;
+}
+
+div form .submit {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+div form input {
+  width: 290px;
+  border: 1px solid #7158C1;
+  height: 34px;
+  padding: 0 30px 0 12px;
+  border-radius: 8px;
+  color: #7158C1;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div form button {
+  height: 35px;
+  margin-left: 5px;
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #7158C1;
+  border: 1px solid #7158C1;
+  border-radius: 6px;
+  }
+
+  div form button#button2 {
+    background: #7158C1;
+    color: #ffffff;
+  }
